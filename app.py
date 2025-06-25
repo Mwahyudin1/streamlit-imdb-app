@@ -11,7 +11,7 @@ import re
 
 # Konfigurasi Streamlit
 st.set_page_config(page_title="Prediksi Rating IMDb", layout="centered")
-st.title("🎬 Prediksi Rating Film IMDb (Versi Peningkatan Akurasi)")
+st.title("🎬 Prediksi Rating Film IMDb Menggunakan Regresi Linier Berbasis Streamlit")
 
 # Konversi durasi string ke menit
 def convert_duration_to_minutes(duration_str):
